@@ -13,6 +13,7 @@ a:hover {
 .topNav {
 	float:right;
 	margin-right: 30px;
+	margin-top: 0;
 }
 
 .topNav li{
@@ -152,4 +153,29 @@ a:hover {
     margin: 2px 10px 0;
     letter-spacing: 0.1px;
     font-size: 14px;
+}
+
+@media (max-width: 650px){
+	.searchBox input{
+		width: 80%;
+	}
+	.searchBox img{
+		width: 200px;
+	}
+	.searchButtons button{
+		font-size: 10px;
+	}
+	.searchBox {
+		margin: 0;
+	}
+}
+@media (max-width: 465px){
+    .topNav li.responsive{
+		display: none;
+	}
+}
+@media (max-width: 522px){
+	.bottomLinks .right{
+		display: none;
+	}
 }
